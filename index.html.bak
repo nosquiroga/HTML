@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap_styleblue.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
 		<script src="js/bootstrap.min.js"></script>
@@ -15,7 +15,7 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	
-	<body style="background-color: #3399FF; padding-left:50px; padding-right:50px;">
+	<body>
 		<header>
 			<nav class="navbar navbar-default ">
 				<div class="container-fluid">
@@ -31,17 +31,12 @@
 					</div>
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li><a href="">Articulos</a></li>
-							<li><a href="">Categorias</a></li>
-							<li><a href="">Etiquetas</a></li>
-							<li><a href="">Sobre el Autor</a></li>
+							<li><a href=""><span class="glyphicon-file" aria-hidden="true"></span>Articulos</a></li>
+							<li><a href=""><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>Categorias</a></li>
+							<li><a href=""><span class="glyphicon glyphicon-tags" aria-hidden="true"></span>Etiquetas</a></li>
+							<li><a href=""><span class="glyphicon glyphicon-edit" aria-hidden="true"></span>Sobre el Autor</a></li>
 						</ul>
 					</div>
-
-
-
-
-
 				</div>
 			<nav>
 		</header>
@@ -51,15 +46,38 @@
 				<div class="col-md-8">
 					<div class="page-header">
 						<h2>El Sr.X y su proyecto</h2>
-						<p>El proyecto del Sr. X llamado "Proyecto X" consiste en construir una pagina web potente con un simple notepad, usando herramientas y tecnologias modernas (HTML, CSS, JQuery, Javascript, Bootstrap)</p>
 					</div>
+					<p>El proyecto del Sr. X llamado "Proyecto X" consiste en construir una pagina web potente con un simple notepad, usando herramientas y tecnologias modernas (HTML, CSS, JQuery, Javascript, Bootstrap)</p>
 				</div>
 				<div class="col-md-4">
-					<figure>
-					<img src="img/images.jpg" alt="Mr.X" width="50" height="50">
-					<figcaption>Sobre Mr. X </figcaption>
-				</figure>
-				<p>El Sr. X es un desarrollador con estudios en la Universidad Tecnologica Nacional (UTN), actualmente se desempeña como Analista Programador Jr. en una empresa de Recursos Humanos</p>
+					<!-- <div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title">Sobre Mr. X</h3>
+						</div>
+						<div class="panel-body">
+							<img src="img/images.jpg" alt="Mr.X" width="75" height="75" class="img-circle">
+							<p>El Sr. X es un desarrollador con estudios en la Universidad Tecnologica Nacional (UTN), actualmente se desempe&ntilde;a como Analista Programador Jr. en una empresa de Recursos Humanos</p>
+						</div>
+					</div> -->
+					<div class="page-header">
+					<table width="100%">
+						<tr align="center">
+							<td>
+								<img src="img/images.jpg" alt="Mr.X" width="75" height="75" style="border-radius:20px; border: 2px white">
+							</td>
+							<td >
+								<h2>Sobre el Sr. X</h2>
+							</td>
+						</tr>
+					</table>
+					</div>
+					<table>
+						<tr >
+							<td align="center" colspan="2">
+								<p>El Sr. X es un desarrollador con estudios en la Universidad Tecnologica Nacional (UTN), actualmente se desempe&ntilde;a como Analista Programador Jr. en una empresa de Recursos Humanos</p>
+							</td>
+						</tr>
+					</table> 	
 				</div>
 			</div>
 		</section>
